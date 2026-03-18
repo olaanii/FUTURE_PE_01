@@ -28,22 +28,34 @@ Build a repeatable prompt framework that can:
 
 The system is modular and split by copy objective:
 
+- [prompts/website_autodesign_master_prompt.md](prompts/website_autodesign_master_prompt.md): full auto-design + copy + UX blueprint for users without design references
+- [prompts/lovable_framer_build_prompt.md](prompts/lovable_framer_build_prompt.md): one-shot builder prompt for Lovable and Framer AI
+- [prompts/senior_frontend_handoff_prompt.md](prompts/senior_frontend_handoff_prompt.md): implementation plan prompt for HTML/CSS/JS developers
+- [prompts/master_prompt_system.md](prompts/master_prompt_system.md): end-to-end orchestration prompt that generates full website copy package in one run
 - [prompts/homepage_prompt.md](prompts/homepage_prompt.md): value proposition and homepage messaging
 - [prompts/services_prompt.md](prompts/services_prompt.md): service-level persuasion and differentiation
 - [prompts/cta_prompt.md](prompts/cta_prompt.md): high-converting CTA variations
 - [prompts/tone_adapter_prompt.md](prompts/tone_adapter_prompt.md): multi-tone adaptation without meaning drift
 
-Each prompt uses reusable variables (business name, location, audience, USP, trust points), making the framework portable to other local businesses.
+Each prompt now includes:
+
+- reusable variable templates for different business types
+- anti-generic writing constraints
+- conversion logic (pain, value, trust, action)
+- output formatting for direct website publishing
+- internal quality gates for clarity, specificity, and conversion intent
 
 ## Generation Workflow
 
 Use prompts in this sequence:
 
-1. Homepage prompt to define primary value proposition.
-2. Services prompt to detail benefits and trust reasons per service.
-3. CTA prompt to generate booking, trust, and urgency CTA options.
-4. Tone adapter prompt to rewrite approved copy for alternate industries or brand voices.
-5. Human review for final compliance, accuracy, and claim realism.
+1. Use auto-design master prompt when client has no design reference.
+2. Use master prompt for copy-focused full-package generation.
+3. Use homepage/services/CTA prompts for deeper module-level optimization.
+4. Use tone adapter prompt for multi-industry tone reuse without meaning drift.
+5. Use Lovable/Framer build prompt for direct AI builder generation.
+6. Use senior frontend handoff prompt for custom coded implementation.
+7. Perform human review for compliance, factual safety, and final polish.
 
 ## Outputs Included
 
@@ -59,6 +71,8 @@ These outputs are designed to be directly usable on a website with minor brand p
 - ChatGPT (primary generation tool)
 - Claude (optional alternative)
 - Google Gemini (optional alternative)
+- Lovable (website deployment-ready copy handoff)
+- Framer AI (website section implementation handoff)
 
 ## Assignment Rubric Coverage
 
@@ -83,6 +97,10 @@ The repository is portfolio-ready for presentation to business owners, agencies,
 ```text
 FUTURE_PE_01/
   prompts/
+    website_autodesign_master_prompt.md
+    lovable_framer_build_prompt.md
+    senior_frontend_handoff_prompt.md
+    master_prompt_system.md
     homepage_prompt.md
     services_prompt.md
     cta_prompt.md

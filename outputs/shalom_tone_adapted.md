@@ -1,51 +1,122 @@
-# Tone Adapted Copy – Shalom Day Spa
+# Tone-Adapted Copy - Shalom Day Spa, Adama
 
-## Base Content (Reference)
+## Source Integrity Snapshot
 
-Headline:
-Leave Stress Behind and Feel Fully Renewed in Adama.
-
-Sub-headline:
-Shalom Day Spa helps busy women and professionals restore energy through personalized wellness treatments in a calm, premium space.
-
-Intro:
-Long days, body tension, and constant pressure can leave you drained. At Shalom Day Spa, every treatment is designed to help you reset both body and mind through personalized care, not one-size-fits-all sessions. Clients choose us for our peaceful environment, attentive therapists, and consistent results they can feel after each visit. Give yourself a moment to recharge, and step back into your week feeling lighter, calmer, and confident.
+- Core facts retained: location in Adama, personalized care, experienced therapists, calm environment, stress-relief and renewal focus
+- Structure retained: headline, sub-headline, intro, services summary, CTA summary
+- Added claims: none
 
 ---
 
-## Friendly Tone
+## Friendly Version
 
-Headline:
-Take a Break, Recharge, and Feel Like Yourself Again.
+### Headline - Friendly
 
-Sub-headline:
-At Shalom Day Spa in Adama, we help busy women and professionals relax, reset, and feel better with care that fits their needs.
+Take a Real Break and Feel Refreshed Again.
 
-Intro:
-When your week feels heavy, your body and mind feel it too. At Shalom Day Spa, we make it easy to slow down and recover with personalized treatments that match what you need most. Our calm setting and caring therapists help you release stress and feel renewed after every visit. Give yourself this time, and walk back into your routine feeling refreshed and more balanced.
+### Sub-headline - Friendly
+
+Shalom Day Spa in Adama helps busy women and professionals relax, recharge, and feel better with treatments tailored to what they need most.
+
+### Intro - Friendly
+
+When life gets busy, stress builds up fast in your body and mind. At Shalom Day Spa, we help you slow down and reset with personalized massage, facial, and body treatments based on your comfort and goals. Our calm atmosphere and caring therapists make every visit feel supportive and restorative. Book your session this week and return to your routine feeling lighter, calmer, and more balanced.
+
+### Services Summary - Friendly
+
+- Massage Therapy: Relieve tension, ease tight muscles, and restore comfort.
+- Facial Treatments: Refresh tired skin and bring back healthy glow.
+- Body Treatments: Reset your whole body with nourishing, relaxation-focused care.
+
+### CTA Summary - Friendly
+
+- Primary: Book your session now.
+- Secondary: Call or message us for quick guidance.
 
 ---
 
-## Professional Tone
+## Professional Version
 
-Headline:
-Restore Energy and Well-Being with Expert Spa Care in Adama.
+### Headline - Professional
 
-Sub-headline:
-Shalom Day Spa supports women and professionals with personalized wellness treatments designed to reduce stress and improve daily well-being.
+Restore Energy and Comfort with Personalized Spa Care.
 
-Intro:
-Ongoing stress, physical tension, and mental fatigue can affect both performance and quality of life. At Shalom Day Spa, each treatment is tailored to your condition and goals, ensuring focused care instead of generic routines. Clients value our peaceful environment, trained therapists, and consistent service quality. Schedule your session to recover energy, improve comfort, and return to your day with greater clarity and confidence.
+### Sub-headline - Professional
+
+Shalom Day Spa in Adama supports women and professionals with tailored wellness treatments designed to reduce stress and improve daily well-being.
+
+### Intro - Professional
+
+Sustained stress, physical tension, and fatigue can significantly affect quality of life and performance. Shalom Day Spa provides personalized massage, facial, and body treatments based on your current condition and wellness goals. Rather than generic routines, each session is adjusted for comfort and effectiveness. Clients value our experienced therapists, calm environment, and consistent service standards. Schedule your preferred appointment time and recover with confidence.
+
+### Services Summary - Professional
+
+- Massage Therapy: Targeted stress and muscle-tension relief.
+- Facial Treatments: Condition-based skin support for texture and glow improvement.
+- Body Treatments: Full-body comfort and renewal through tailored care.
+
+### CTA Summary - Professional
+
+- Primary: Reserve your treatment session.
+- Secondary: Call for a short consultation before booking.
 
 ---
 
-## Premium Tone
+## Premium Version
 
-Headline:
-Experience Calm Renewal in Adama.
+### Headline - Premium
 
-Sub-headline:
-Shalom Day Spa offers personalized wellness treatments for women and professionals who seek refined care and lasting restoration.
+Experience Calm Restoration in Adama.
 
-Intro:
-Modern routines often leave little space for true recovery. At Shalom Day Spa, each treatment is thoughtfully tailored to restore balance through attentive, personalized care in a serene setting. Our clients return for the quiet atmosphere, skilled therapists, and consistent outcomes that elevate everyday well-being. Reserve your time to unwind deeply and step forward feeling composed, restored, and renewed.
+### Sub-headline - Premium
+
+Shalom Day Spa offers personalized wellness treatments for women and professionals seeking refined care, deep relaxation, and lasting renewal.
+
+### Intro - Premium
+
+Modern routines can leave little room for meaningful recovery. At Shalom Day Spa, each massage, facial, and body treatment is thoughtfully tailored to your individual needs in a calm, premium setting. Our experienced therapists deliver attentive care with consistency, comfort, and precision. The result is a spa experience that helps you unwind fully and return to your day feeling composed, restored, and renewed.
+
+### Services Summary - Premium
+
+- Massage Therapy: Intentional treatment for tension release and deep ease.
+- Facial Treatments: Gentle, personalized care for visibly refreshed skin.
+- Body Treatments: Complete renewal for smoother skin and lighter body comfort.
+
+### CTA Summary - Premium
+
+- Primary: Book your preferred session.
+- Secondary: Contact us for a personalized recommendation.
+
+---
+
+## Confident-Simple Version
+
+### Headline - Confident-Simple
+
+Feel Better Fast with Personalized Spa Care.
+
+### Sub-headline - Confident-Simple
+
+Shalom Day Spa in Adama helps busy clients reduce stress and restore energy through clear, tailored wellness treatments.
+
+### Intro - Confident-Simple
+
+If stress and fatigue are affecting your week, this is your reset point. Shalom Day Spa provides personalized massage, facial, and body treatments designed around your current needs. You get focused care, a calm environment, and experienced therapists who prioritize comfort and results. Book your session now and step back into your routine feeling physically lighter and mentally clearer.
+
+### Services Summary - Confident-Simple
+
+- Massage Therapy: Release body tension and restore comfort.
+- Facial Treatments: Improve skin freshness and texture.
+- Body Treatments: Renew your full body with targeted relaxation care.
+
+### CTA Summary - Confident-Simple
+
+- Primary: Book your session today.
+- Secondary: Call now for quick support.
+
+## Side-by-Side Summary
+
+- Friendly: Warm, approachable, everyday language.
+- Professional: Structured, precise, trust-forward language.
+- Premium: Refined, calm, and elevated experience framing.
+- Confident-Simple: Direct, clear, action-focused language.

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserve | Shalom Day Spa</title>
+    <!-- Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: { extend: { fontFamily: { serif: ['"Cormorant Garamond"', 'serif'], sans: ['"Plus Jakarta Sans"', 'sans-serif'], }, colors: { stone: { 50: '#fafaf9' } } } }
+        }
+    </script>
+</head>
+<body class="font-sans text-stone-600 bg-white antialiased h-full flex flex-col md:flex-row selection:bg-amber-100 selection:text-amber-900">
+    
+    <!-- Left Static Panel (Split Screen UX Pattern) -->
+    <div class="w-full md:w-[45%] lg:w-[40%] bg-stone-50 p-8 md:p-16 lg:p-24 flex flex-col justify-between relative overflow-hidden shrink-0 border-b md:border-b-0 md:border-r border-stone-200/50">
+        
+        <!-- Interactive Blobs for background texture -->
+        <div class="absolute -top-32 -left-32 w-96 h-96 bg-amber-100 rounded-full mix-blend-multiply filter blur-3xl opacity-60"></div>
+        <div class="absolute bottom-0 -right-20 w-80 h-80 bg-stone-200 rounded-full mix-blend-multiply filter blur-3xl opacity-60"></div>
+
+        <div class="relative z-10 flex flex-col h-full">
+            <a href="index.html" class="font-serif text-3xl text-stone-900 tracking-tight font-medium mb-16 md:mb-24 block">SHALOM<span class="text-amber-700">.</span></a>
+            
+            <div class="flex-grow">
+                <h1 class="font-serif text-5xl md:text-6xl text-stone-900 mb-6 leading-tight">Reserve Your <br><span class="italic text-amber-700">Moment.</span></h1>
+                <p class="text-lg text-stone-500 font-light mb-16 max-w-sm leading-relaxed">Let our concierge curate your perfect retreat. Select a time and we’ll prepare the space.</p>
+
+                <div class="space-y-10">
+                    <div class="flex gap-4 items-start">
+                        <div class="w-10 h-10 rounded-full bg-white shadow-sm flex items-center justify-center text-amber-700 shrink-0">⚲</div>
+                        <div>
+                            <h4 class="text-xs font-bold text-stone-400 uppercase tracking-widest mb-1.5">Sanctuary Location</h4>
+                            <p class="text-stone-900 font-medium text-sm">123 Wellness Blvd<br>Tranquility District, 90210</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4 items-start">
+                        <div class="w-10 h-10 rounded-full bg-white shadow-sm flex items-center justify-center text-amber-700 shrink-0">☏</div>
+                        <div>
+                            <h4 class="text-xs font-bold text-stone-400 uppercase tracking-widest mb-1.5">Concierge Line</h4>
+                            <p class="text-stone-900 font-medium text-sm">+1 (800) 555-SPA1</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-xs font-medium text-stone-400 flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-green-500"></span> Booking availability open
+            </div>
+        </div>
+    </div>
+
+    <!-- Right Dynamic Form Panel -->
+    <div class="flex-1 p-8 md:p-16 lg:p-24 flex items-center justify-center bg-white overflow-y-auto w-full relative">
+        <!-- Close / Back Button -->
+        <a href="index.html" class="absolute top-8 right-8 md:top-12 md:right-12 w-12 h-12 rounded-full border border-stone-200 flex items-center justify-center text-stone-400 hover:bg-stone-50 hover:text-stone-900 transition-colors">✕</a>
+
+        <form class="w-full max-w-lg space-y-6" onsubmit="event.preventDefault(); alert('We have received your reservation request!');">
+            
+            <!-- Shadcn-style clean inputs -->
+            <div class="space-y-2">
+                <label for="fullName" class="text-sm font-semibold text-stone-700">Full Name</label>
+                <input id="fullName" type="text" class="w-full px-5 py-4 rounded-2xl bg-stone-50/50 border border-stone-200 text-stone-900 placeholder:text-stone-400 focus:bg-white focus:border-amber-700 focus:ring-4 focus:ring-amber-700/10 outline-none transition-all" placeholder="Jane Doe" required>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="space-y-2">
+                    <label for="emailAddr" class="text-sm font-semibold text-stone-700">Email Address</label>
+                    <input id="emailAddr" type="email" class="w-full px-5 py-4 rounded-2xl bg-stone-50/50 border border-stone-200 text-stone-900 placeholder:text-stone-400 focus:bg-white focus:border-amber-700 focus:ring-4 focus:ring-amber-700/10 outline-none transition-all" placeholder="jane@example.com" required>
+                </div>
+                <div class="space-y-2">
+                    <label for="phoneNum" class="text-sm font-semibold text-stone-700">Phone</label>
+                    <input id="phoneNum" type="tel" class="w-full px-5 py-4 rounded-2xl bg-stone-50/50 border border-stone-200 text-stone-900 placeholder:text-stone-400 focus:bg-white focus:border-amber-700 focus:ring-4 focus:ring-amber-700/10 outline-none transition-all" placeholder="(555) 000-0000" required>
+                </div>
+            </div>
+
+            <div class="space-y-2">
+                <label for="serviceInterest" class="text-sm font-semibold text-stone-700">Service Interest</label>
+                <select id="serviceInterest" class="w-full px-5 py-4 rounded-2xl bg-stone-50/50 border border-stone-200 text-stone-900 focus:bg-white focus:border-amber-700 focus:ring-4 focus:ring-amber-700/10 outline-none transition-all appearance-none line-clamp-1">
+                    <option disabled selected>Select an experience...</option>
+                    <option>Total Relaxation Massage</option>
+                    <option>Hot Stone Rescue</option>
+                    <option>Bespoke Botanical Facial</option>
+                    <option>Not Sure Yet (Let's Chat)</option>
+                </select>
+            </div>
+
+            <div class="space-y-2 pb-6">
+                <label for="prefDate" class="text-sm font-semibold text-stone-700">Preferred Date</label>
+                <input id="prefDate" type="date" class="w-full px-5 py-4 rounded-2xl bg-stone-50/50 border border-stone-200 text-stone-900 focus:bg-white focus:border-amber-700 focus:ring-4 focus:ring-amber-700/10 outline-none transition-all" required>
+            </div>
+
+            <button type="submit" class="w-full bg-stone-900 text-white rounded-2xl py-4 lg:py-5 font-bold hover:bg-amber-700 transition-colors shadow-xl hover:shadow-2xl hover:-translate-y-1 transform">
+                Request Booking
+            </button>
+            <p class="text-xs text-center text-stone-400 mt-4 leading-relaxed">No credit card required at this step.<br>We will confirm available times directly.</p>
+        </form>
+    </div>
+    
+</body>
+</html>
